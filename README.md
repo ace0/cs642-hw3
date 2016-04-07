@@ -67,7 +67,7 @@ You are encouraged to use the internet, the Piazza discussion board for this cla
 
 ## Extra credit: More password cracking
 
-The input `ace,password,2953983556` processed with SAH256 iterated 256 times produces the hash 
+The input `ace,password,2953983556` processed with SHA256 iterated 256 times produces the hash 
 `1f449b8b05967da7b3c069012174d587e788a8ecd20a5d6a62746c9ed9a2d6d1`. For the username `ldecarli` with salt `0556927495` the challenge hash is 
 `f6bf5d2b5a7c85e2bcf4d183fc7ba9db335cf6f177913328c43cf85123f1b18c`.
 
