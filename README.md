@@ -1,6 +1,6 @@
 # CS 642: Computer Security - Homework Three
 
-This homework assignment covers topics in cryptography. You must work with a partner. There are two parts; both are required.
+This homework assignment covers topics in cryptography. You must work with a partner. There are two parts labeled A and B and one extra credit part described at the end of this document.
 
 It is due **April 28, 2016** by 11:59 PM local time. 
 
@@ -59,7 +59,17 @@ https://uwmad.courses.wisconsin.edu/d2l/home/3199130
 Use Assignments > Dropbox to find the hw-3 submission folder.
 
 ## Grading
-Each part is worth up to 5 points for a total of 10 points for this assignment.
+Parts A and B are worth up to 5 points for a total of 10 points for this assignment. The extra credit below is worth up to 2 additional points.
 
 ## Collaboration Policy
 You are encouraged to use the internet, the Piazza discussion board for this class, and classmates for information about tools and setup. Please help your fellow classmates with setup and understanding Python, but don't discuss solution specifics with anyone beyond your project partner.
+
+
+## Extra credit: More password cracking
+
+The input `ace,password,2953983556` processed with PBKDF2 with 256 iterations produces the hash 
+`1f449b8b05967da7b3c069012174d587e788a8ecd20a5d6a62746c9ed9a2d6d1`. For the username `ldecarli` with salt `0556927495` the challenge hash is 
+`f8bd15da6161496395cb9a9cbafbb67c87db98bd160185d8299a0c9a88559baa`.
+
+Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password a description of how you found the correct password.
+
