@@ -71,5 +71,4 @@ The input `ace,password,2953983556` processed with SHA256 iterated 256 times pro
 `1f449b8b05967da7b3c069012174d587e788a8ecd20a5d6a62746c9ed9a2d6d1`. For the username `ldecarli` with salt `0556927495` the challenge hash is 
 `f6bf5d2b5a7c85e2bcf4d183fc7ba9db335cf6f177913328c43cf85123f1b18c`.
 
-Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password a description of how you found the correct password.
-
+Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password and a description of how you found the correct password.
