@@ -74,13 +74,10 @@ The input `ace,password,2953983556` processed with SHA256 iterated 256 times pro
 The password is representative of real-world passwords: something complex enough that the person that selected this password would consider using it for a website login, but easy enough to be memorable.
 
 **Hints**
-- The password is based on an underlying dictionary word.
-- The password has a small number (not more than 4) of common transformations, 
-  all of which are simple character substitutions. (Think: changing capitalization, 
-  swapping symbols and numbers for letters like '@' for 'a', or '1' for 'i').
+- The password is based on a dictionary word.
+- The password has a small number (not more than 4) of common transformations, all of which are simple character substitutions. (Think: changing capitalization,swapping symbols and numbers for letters like '@' for 'a', or '1' for 'i').
 - Knowing something about the real-world user associated with this password 
   might help finding the underlying dictionary word.
-
 
 Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password and a description of how you found the correct password.
 
