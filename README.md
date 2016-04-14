@@ -2,7 +2,7 @@
 
 This homework assignment covers topics in cryptography. You must work with a partner. There are two parts labeled A and B and one extra credit part described at the end of this document.
 
-It is due **April 28, 2016** by 11:59 PM local time. 
+It is due **April 18, 2016** by 11:59 PM local time. 
 
 ## Part A: Password Cracking
 
@@ -67,11 +67,9 @@ You are encouraged to use the internet, the Piazza discussion board for this cla
 
 ## Extra credit: More password cracking
 
-The input `ace,password,2953983556` processed with PBKDF2 with 256 iterations produces the hash 
+The input `ace,password,2953983556` processed with SHA256 iterated 256 times produces the hash 
 `1f449b8b05967da7b3c069012174d587e788a8ecd20a5d6a62746c9ed9a2d6d1`. For the username `ldecarli` with salt `0556927495` the challenge hash is 
-`f8bd15da6161496395cb9a9cbafbb67c87db98bd160185d8299a0c9a88559baa`.
-
-Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password a description of how you found the correct password.
+`f6bf5d2b5a7c85e2bcf4d183fc7ba9db335cf6f177913328c43cf85123f1b18c`.
 
 The password is representative of real-world passwords: something complex enough that the person that selected this password would consider using it for a website login, but easy enough to be memorable.
 
@@ -84,7 +82,5 @@ The password is representative of real-world passwords: something complex enough
   might help finding the underlying dictionary word.
 
 
-
-
-
+Find the password used to produce the challenge hash. Submit the code you used to solve the hash and add to `solutions.txt` the correct password and a description of how you found the correct password.
 
